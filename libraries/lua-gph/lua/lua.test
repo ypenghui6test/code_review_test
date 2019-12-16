@@ -1,1 +1,0 @@
-contract_global_variable={} function sum (a,b)   contract_global_variable.ret = a+b end function sub (a,b)   contract_global_variable.ret = a-b end  
