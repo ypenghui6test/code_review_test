@@ -23,4 +23,5 @@ jobs:
     - stage: build for cache
       script:
       - ccache -s
-      - exec bash -c "cmake -DCMAKE_BUILD_TYPE=Debug -DBUILD_PROCESS_ENCRYPTION=NO . & make -j 2"
+      - cmake -DCMAKE_BUILD_TYPE=Debug -DBUILD_PROCESS_ENCRYPTION=NO .
+      - make -j 8
