@@ -24,4 +24,4 @@ jobs:
       script:
       - ccache -s
       - cmake -DCMAKE_BUILD_TYPE=Debug -DBUILD_PROCESS_ENCRYPTION=NO .
-      - make -j 8
+      - make -j 4
